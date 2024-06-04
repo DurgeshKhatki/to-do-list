@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="todoStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div id="outer-div">
+            <div id="title">
+                <h1>TO Do List <i class="fa-solid fa-rectangle-list"></i></h1>
+            </div>
+            <div id="inputField">
+                <input type="text" id="taskInput" placeholder="Enter your task here...">
+                <button id="addToListBtn"><i class="fa-solid fa-square-plus"></i></button>
+            </div>
+            <div>
+                <button id="completedFilter">Completed</button>
+                <button id="uncompletedFilter">Uncompleted</button>
+            </div>
+            <div id="listItems">
+                <ul id="taskList">
+
+                </ul>
+            </div>
+            <div>
+                <button id="completeAllTag">CompleteAll</button>
+                <button id="clearAllTag">ClearAll</button>
+            </div>
+        </div>
+    </div>
+    <script src="todoScript.js">
+    </script>
+</body>
+</html>
